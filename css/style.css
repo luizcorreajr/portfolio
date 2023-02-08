@@ -47,27 +47,28 @@ header img {
     position: absolute;
      right: 0;
     display: flex;
-     gap: 20px;
+     gap: 10px;
     margin-top: -10px;
     margin-right: 80px;
 }
 
     #ul_main li {
-        font-size: 1.3em;
-        text-decoration: none;
-        list-style: none;
+        padding: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
         cursor: pointer;
+        list-style: none;
+        text-decoration: none;
         color: rgb(250, 235, 215);
+        font-size: 1.3em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    #ul_main li:hover {
-        padding: 7px;
-        border-radius: 5px;
-        font-weight: bold;
-        transition: 0.3s;
-        background-color: rgba(250, 235, 215, 0.349);
-    }
+        #ul_main li:hover {
+            border-radius: 5px;
+            transition: 0.3s;
+            background-color: rgba(250, 235, 215, 0.349);
+        }
 
     #ul_main a {
         text-decoration: none;
@@ -141,8 +142,6 @@ header img {
         }
 
 
-
-
 #close-options-user {
     position: absolute;
      right: 0;
@@ -153,6 +152,8 @@ header img {
     color: rgb(236, 200, 0);
     cursor: pointer;
 }
+
+
 
 /* ==================== MAIN ==================== */
 main {
@@ -191,6 +192,7 @@ main {
 #welcome_userName {
     color:rgb(112, 238, 255);
 }
+
 
 
 /* ==================== MODAL ==================== */
