@@ -186,7 +186,6 @@ header img {
         box-shadow: none;
         background-color: var(--firstColor);
     }
-
     #project:not(:hover) {
         transition: 0.4s;
         background-color: var(--secondColor);
