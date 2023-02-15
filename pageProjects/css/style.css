@@ -158,14 +158,20 @@ header img {
 
 
 
+
 /* ==================== MAIN ==================== */
+#allProjects {
+    display: flex;
+     justify-content: center;
+     gap: 300px;
+}
 
 
 
 
 
 /* ==================== PROJECTS ==================== */
-#testProject {
+#project {
     display: flex;
     width: 450px;
     height: 200px;
@@ -175,31 +181,34 @@ header img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
 }
 
-    #testProject:hover {
+    #project:hover {
         transition: 0.4s;
         box-shadow: none;
         background-color: var(--firstColor);
     }
 
-    #testProject:not(:hover) {
+    #project:not(:hover) {
         transition: 0.4s;
         background-color: var(--secondColor);
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
     }
 
-#testTextProject {
+#textProject {
     display: flex;
-    flex-direction: column;
+     flex-direction: column;
+    width: 260px;
+    height: 180px;
+    overflow: hidden;
     font-family: var(--fontFamily);
     color: var(--textFirstColor);
     margin-top: 10px;
 }
 
-    #testTextProject > h2 h4 {
-        word-break: break-word;
+    #textProject > h2 {
+        margin-bottom: 17px;
     }
 
-#testImageProject {
+#imageProject {
     align-self: center;
     margin-left: 10px;
     margin-right: 10px;
