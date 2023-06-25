@@ -1,0 +1,36 @@
+
+header {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+  padding: 30px;
+  width: 100%;
+  height: 60px;
+  background-color: #003852;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-group {
+  display: flex;
+   gap: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.link-header {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.link-header:hover {
+  color: #c4c4c4;
+}
