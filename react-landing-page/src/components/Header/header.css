@@ -25,6 +25,7 @@ header {
 
 .link-header {
   font-weight: bolder;
+  font-size: 1em;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
@@ -33,4 +34,9 @@ header {
 
 .link-header:hover {
   color: #c4c4c4;
+}
+
+button {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
 }

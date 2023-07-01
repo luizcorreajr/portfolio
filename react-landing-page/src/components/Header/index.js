@@ -9,6 +9,7 @@ function Header() {
         <div className="link-group">
           <Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link>
           <Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link>
+          <button className="link-header">Projects</button>
         </div>
       </header>
     </div>
