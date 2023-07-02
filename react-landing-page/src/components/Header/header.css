@@ -1,3 +1,9 @@
+:root {
+  --firstColor: #fff;
+  --secondColor: #003852;
+  --thirdColor: #c4c4c4;
+}
+
 
 header {
   display: flex;
@@ -6,7 +12,7 @@ header {
   padding: 30px;
   width: 100%;
   height: 60px;
-  background-color: #003852;
+  background-color: var(--secondColor);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,7 +25,7 @@ header {
   text-decoration: none;
   font-weight: bolder;
   font-size: 2em;
-  color: #fff;
+  color: var(--firstColor);
   cursor: pointer;
 }
 
@@ -27,16 +33,11 @@ header {
   font-weight: bolder;
   font-size: 1em;
   text-decoration: none;
-  color: #fff;
+  color: var(--firstColor);
   cursor: pointer;
   transition: all 0.5s;
 }
 
 .link-header:hover {
-  color: #c4c4c4;
-}
-
-button {
-  background-color: rgba(255, 0, 0, 0);
-  border: none;
+  color: var(--thirdColor);
 }
