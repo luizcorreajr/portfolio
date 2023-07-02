@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <RoutesApp/>
-      <h2>Welcome</h2>
     </div>
   );
 }

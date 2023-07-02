@@ -7,9 +7,10 @@ function Header() {
       <header>
         <Link to="/" className="logo">I'mJr</Link>
         <div className="link-group">
+          <Link to="/" className="link-header">Home</Link>
           <Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link>
           <Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link>
-          <button className="link-header">Projects</button>
+          <Link to="/projects" className="link-header">Projects</Link>
         </div>
       </header>
     </div>
