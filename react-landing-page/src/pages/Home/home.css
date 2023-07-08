@@ -1,9 +1,12 @@
 :root {
-    --firstColor: #fff;
-    --secondColor: #003852;
-    --thirdColor: #c4c4c4;
-  }
-
+  --mobile: 360px;
+  --tablet: 640px;
+  --desktopS: 768px;
+  --desktopL: 1086px;
+  --firstColor: #fff;
+  --secondColor: #003852;
+  --thirdColor: #c4c4c4;
+}
 
 .img-circulo {
   width: 650px;
