@@ -5,7 +5,7 @@
   --desktopL: 1086px;
   --firstColor: #fff;
   --secondColor: #003852;
-  --thirdColor: #c4c4c4;
+  --thirdColor: #7e7e7e;
 }
 
 
@@ -15,8 +15,8 @@ header {
    align-items: center;
   padding: 30px;
   width: 100%;
-  height: 60px;
-  background-color: var(--secondColor);
+  height: 100px;
+  background-color: var(--firstColor);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@ header {
   text-decoration: none;
   font-weight: bolder;
   font-size: 2em;
-  color: var(--firstColor);
+  color: var(--secondColor);
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ header {
   font-weight: bolder;
   font-size: 1em;
   text-decoration: none;
-  color: var(--firstColor);
+  color: var(--secondColor);
   cursor: pointer;
   transition: all 0.5s;
 }
