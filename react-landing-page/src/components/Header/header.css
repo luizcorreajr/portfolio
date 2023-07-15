@@ -11,7 +11,7 @@
 
 header {
   display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
   padding: 30px;
   width: 100%;
@@ -22,7 +22,8 @@ header {
 
 .link-group {
   display: flex;
-   gap: 20px;
+   gap: 40px;
+  list-style-type: none;
 }
 
 .logo {
@@ -44,4 +45,17 @@ header {
 
 .link-header:hover {
   color: var(--thirdColor);
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+}
+
+.dropdown-menu a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
