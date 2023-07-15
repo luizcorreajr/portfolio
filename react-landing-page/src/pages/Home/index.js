@@ -1,4 +1,4 @@
-import ImgCirculo from './../../images/circulo.png';
+// import ImgCirculo from './../../images/circulo.png';
 import './home.css';
 
 
