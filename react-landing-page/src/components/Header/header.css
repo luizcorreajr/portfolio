@@ -50,6 +50,9 @@ header {
 .dropdown-menu {
   position: absolute;
   display: none;
+   flex-direction: column;
+   gap: 15px;
+  padding-top: 12px;
 }
 
 .dropdown-menu a {
@@ -57,5 +60,5 @@ header {
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  display: flex;
 }

@@ -14,12 +14,14 @@ function Header() {
             <li><Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link></li>
             <li><Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link></li>
             <li className="dropdown">
+              
               <Link to="/projects" className="link-header">Projects</Link>
               <div className="dropdown-menu">
-                <a href="/">teste 1</a>
-                <a href="/">teste 2</a>
-                <a href="/">teste 3</a>
+                <a href="https://class-react-ljr.netlify.app" className="link-header" target="_blank">Prime Flix</a>
+                <a href="/" className="link-header">teste 002</a>
+                <a href="/" className="link-header">teste 003</a>
               </div>
+              
             </li>
             
           </ul>
