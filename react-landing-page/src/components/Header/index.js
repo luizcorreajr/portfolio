@@ -7,7 +7,7 @@ function Header() {
       <header>
         <Link to="/" className="logo">I'mJr</Link>
 
-        <nav>
+        <nav className="container">
           <ul className="link-group">
             
             <li><Link to="/" className="link-header">Home</Link></li>
@@ -16,6 +16,7 @@ function Header() {
             <li className="dropdown">
               
               <Link to="/projects" className="link-header">Projects</Link>
+              
               <div className="dropdown-menu">
                 <a href="https://class-react-ljr.netlify.app" className="link-header" target="_blank">Prime Flix</a>
                 <a href="/" className="link-header">teste 002</a>
