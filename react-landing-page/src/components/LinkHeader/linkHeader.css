@@ -37,11 +37,3 @@
 .dropdown-menu {
   display: none;
 }
-
-.div-options {
-  display: none;
-}
-
-.icon-menu:hover .div-options {
-  display: block;
-}
