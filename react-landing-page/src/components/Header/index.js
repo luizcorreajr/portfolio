@@ -1,5 +1,7 @@
-import './header.css';
 import {Link} from 'react-router-dom';
+
+import './header.css';
+import { FaAlignJustify } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -8,6 +10,8 @@ function Header() {
         <Link to="/" className="logo">I'mJr</Link>
 
         <nav className="container">
+          <FaAlignJustify className="icon-menu"/>
+
           <ul className="link-group">
             
             <li><Link to="/" className="link-header">Home</Link></li>
@@ -18,13 +22,12 @@ function Header() {
               <Link to="/projects" className="link-header">Projects</Link>
               
               <div className="dropdown-menu">
-                <a href="https://class-react-ljr.netlify.app" className="link-header" target="_blank">Prime Flix</a>
+                <a href="https://class-react-ljr.netlify.app" className="link-header" target="_blank" rel="noopener noreferrer">Prime Flix</a>
                 <a href="/" className="link-header">teste 002</a>
                 <a href="/" className="link-header">teste 003</a>
               </div>
               
             </li>
-            
           </ul>
         </nav>
 

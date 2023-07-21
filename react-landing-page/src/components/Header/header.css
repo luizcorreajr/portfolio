@@ -27,6 +27,29 @@ header {
   cursor: pointer;
 }
 
+.icon-menu {
+  font-size: 2em;
+  color: var(--firstColor);
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.link-group {
+  list-style-type: none;
+}
+
+.link-header {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 
 /* acima de 640px */
