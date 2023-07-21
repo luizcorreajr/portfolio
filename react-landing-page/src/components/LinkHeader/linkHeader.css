@@ -1,0 +1,35 @@
+:root {
+  --mobile: 360px;
+  --tablet: 640px;
+  --desktopS: 768px;
+  --desktopL: 1086px;
+  --firstColor: #fff;
+  --secondColor: #003852;
+  --thirdColor: #7e7e7e;
+}
+
+.div-container {
+  position: absolute;
+}
+
+/* .container { 
+} */
+
+.link-group {
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 80px;
+  background-color: #161616cc;
+  list-style-type: none;
+}
+
+.link-header {
+  text-decoration: none;
+  font-size: 2em;
+  color: var(--desktopS);
+}
+
+.dropdown-menu {
+  display: none;
+}

@@ -9,7 +9,7 @@
 }
 
 
-header {
+.div-header {
   display: flex;
    justify-content: space-around;
    align-items: center;
@@ -29,18 +29,6 @@ header {
 
 .icon-menu {
   font-size: 2em;
-  color: var(--firstColor);
-  background-color: transparent;
-  border: none;
-  display: none;
-}
-
-.link-group {
-  list-style-type: none;
-}
-
-.link-header {
-  text-decoration: none;
 }
 
 
@@ -52,7 +40,9 @@ header {
 
 
 
-/* acima de 640px */
+
+
+/* acima de 640px
 @media screen and (min-width: 640px) {
 
   .link-group {
@@ -110,4 +100,4 @@ header {
   .link-header {
     color: blue;
   }
-}
+} */
