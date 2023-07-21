@@ -8,20 +8,24 @@
   --thirdColor: #7e7e7e;
 }
 
-.div-container {
-  position: absolute;
-}
+/* .div-container {
 
-/* .container { 
+} */
+
+/* .container {
+
 } */
 
 .link-group {
   display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 80px;
-  background-color: #161616cc;
   list-style-type: none;
+  background-color: #161616cc;
+}
+
+.li-link-header {
+  padding: 40px;
 }
 
 .link-header {
@@ -32,4 +36,12 @@
 
 .dropdown-menu {
   display: none;
+}
+
+.div-options {
+  display: none;
+}
+
+.icon-menu:hover .div-options {
+  display: block;
 }

@@ -29,9 +29,15 @@
 
 .icon-menu {
   font-size: 2em;
+  border: none;
+  cursor: pointer;
+  color: var(--firstColor);
+  background-color: transparent;
 }
 
-
+.div-options {
+  /* display: none; */
+}
 
 
 

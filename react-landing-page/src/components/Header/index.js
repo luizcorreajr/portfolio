@@ -12,10 +12,12 @@ function Header() {
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
-          <FaAlignJustify className="icon-menu"/>
+          <button className="icon-menu"><FaAlignJustify/></button>
         </div>
 
-        <LinkHeader/>
+        <div className="div-options">
+          <LinkHeader/>
+        </div>
 
       </header>
     </div>

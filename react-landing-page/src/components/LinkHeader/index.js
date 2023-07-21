@@ -7,18 +7,18 @@ function LinkHeader() {
       <nav className="container">
         <ul className="link-group">
             
-          <li><Link to="/" className="link-header">Home</Link></li>
-          <li><Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link></li>
-          <li><Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link></li>
-          <li className="dropdown">
+          <li className="li-link-header"><Link to="/" className="link-header">Home</Link></li>
+          <li className="li-link-header"><Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link></li>
+          <li className="li-link-header"><Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link></li>
+          <li className="li-link-header dropdown">
             
             <Link to="/projects" className="link-header">Projects</Link>
             
-            <div className="dropdown-menu">
-              <a href="https://class-react-ljr.netlify.app" className="link-header" target="_blank" rel="noopener noreferrer">Prime Flix</a>
-              <a href="/" className="link-header">teste 002</a>
-              <a href="/" className="link-header">teste 003</a>
-            </div>
+            <ul className="dropdown-menu">
+              <li href="https://class-react-ljr.netlify.app" className="link-header" target="_blank" rel="noopener noreferrer">Prime Flix</li>
+              <li href="/" className="link-header">teste 002</li>
+              <li href="/" className="link-header">teste 003</li>
+            </ul>
           </li>
         </ul>
       </nav>
