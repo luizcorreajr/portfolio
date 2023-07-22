@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import './header.css';
 import { FaAlignJustify } from 'react-icons/fa';
 
+
+
 function Header() {
 
   function btnMenu() {
@@ -18,7 +20,7 @@ function Header() {
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
-          <button onClick={()=> btnMenu()} className="icon-menu"><FaAlignJustify/></button>
+          <button onClick={btnMenu} className="icon-menu"><FaAlignJustify/></button>
         </div>
 
 

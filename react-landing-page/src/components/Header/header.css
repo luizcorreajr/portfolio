@@ -9,68 +9,73 @@
 }
 
 
-.div-header {
-  display: flex;
-   justify-content: space-around;
-   align-items: center;
-  padding: 30px;
-  width: 100%;
-  height: 100px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+@media screen and (max-width: 639px) {
 
-.logo {
-  text-decoration: none;
-  font-weight: bolder;
-  font-size: 2em;
-  color: var(--firstColor);
-  cursor: pointer;
-}
-
-.icon-menu {
-  font-size: 2em;
-  border: none;
-  cursor: pointer;
-  color: var(--firstColor);
-  background-color: transparent;
-}
-
-.div-options {
-  display: none;
-}
-
-
-
-
-
-
-
-
-
-
-/* acima de 640px
-@media screen and (min-width: 640px) {
-
-  .link-group {
+  .div-header {
     display: flex;
-     gap: 40px;
-    list-style-type: none;
+     justify-content: space-around;
+     align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
-  .link-header {
-    font-weight: bolder;
-    font-size: 1em;
+  .logo {
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 2em;
     color: var(--firstColor);
     cursor: pointer;
+  }
+  
+  .icon-menu {
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    color: var(--firstColor);
+    background-color: transparent;
+  }
+  
+  .div-options {
+    display: none;
+  }
+}
+
+
+
+/* ========== acima de 640px ========== */
+@media screen and (min-width: 640px) {
+  
+  header {
+    display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+    width: 100%;
+    height: 80px;
+  }
+
+  .logo {
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--firstColor);
+  }
+
+  .link-header {
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
     transition: all 0.5s;
+    color: var(--firstColor);
   }
   
   .link-header:hover {
     color: var(--thirdColor);
   }
   
-  .dropdown-menu {
+  /* .dropdown-menu {
     position: absolute;
     display: none;
      flex-direction: column;
@@ -85,24 +90,24 @@
   
   .dropdown:hover .dropdown-menu {
     display: flex;
-  }
+  } */
 
-  .link-header {
-    color: red;
+  .icon-menu {
+    display: none;
   }
 }
 
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .link-header {
     color: green;
   }
-}
+} */
 
 
 
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 1080px) {
   .link-header {
     color: blue;
   }
