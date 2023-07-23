@@ -1,5 +1,7 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import LinkHeader from '../LinkHeader';
-import {Link} from 'react-router-dom';
 
 import { FaAlignJustify } from 'react-icons/fa';
 import './header.css';
@@ -7,10 +9,18 @@ import './header.css';
 
 
 function Header() {
+  const [status, setStatus] = useState(false);
+
+
 
   function btnMenu() {
+    setStatus(!status);
+
     let divOptions = document.getElementById("div-options");
-    divOptions.style.display = 'block';
+    
+    status === true
+    ? divOptions.style.display = 'block' 
+    : divOptions.style.display = 'none'
   }
 
 
