@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import LinkHeader from '../LinkHeader';
 
 import { FaAlignJustify } from 'react-icons/fa';
-import './header.css';
+import './style.css';
+// import './header.css';
 
 
 
@@ -26,7 +27,7 @@ function Header() {
 
   
   return (
-    <div>
+    <div className="container">
       <header>
 
         <div className="div-header">

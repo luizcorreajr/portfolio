@@ -75,7 +75,7 @@
     color: var(--thirdColor);
   }
   
-  /* .dropdown-menu {
+  .dropdown-menu {
     position: absolute;
     display: none;
      flex-direction: column;
@@ -90,7 +90,7 @@
   
   .dropdown:hover .dropdown-menu {
     display: flex;
-  } */
+  }
 
   .icon-menu {
     display: none;
