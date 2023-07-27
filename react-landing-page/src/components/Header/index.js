@@ -27,8 +27,8 @@ function Header() {
 
   
   return (
-    <div className="container">
-      <header>
+    <header>
+      <div className="container">
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
@@ -39,8 +39,8 @@ function Header() {
           <LinkHeader/>
         </div>
 
-      </header>
-    </div>
+      </div>
+    </header>
   )
 }
 
