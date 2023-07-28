@@ -5,8 +5,8 @@ import '../Header/style.css'
 
 function LinkHeader() {
   return (
-    <div className="container">
-      <nav className="content">
+    <div className="container-linkheader">
+      <nav className="content-linkheader">
         <ul className="link-group">
             
           <li><Link to="/">Home</Link></li>
@@ -14,7 +14,7 @@ function LinkHeader() {
           <li><Link to="https://www.linkedin.com/in/luizcorreajr/" target="_blank">LinkedIn</Link></li>
           <li><Link to="/projects">Projects</Link>
             
-            <ul>
+            <ul className="link-group-projects">
               <li><Link to="https://class-react-ljr.netlify.app" target="_blank">Prime Flix</Link></li>
               <li><Link to="/">ToDo List</Link></li>
               <li><Link to="/">My Services</Link></li>

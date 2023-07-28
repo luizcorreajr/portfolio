@@ -31,11 +31,11 @@
   height: 100%;
 }
 .div-header a {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 .div-header button {
-  font-size: 1.6em;
+  font-size: 1.5em;
   background-color: transparent;
   border: none;
   color: var(--firstColor);
@@ -43,16 +43,49 @@
 
 
 .div-options {
-  display: none;
+  /* display: none; */
 }
 
 
 
 /* ===== LINK HEADER ===== */
-/* .link-group {
+.container-linkheader {
+  /* width: 100%; */
+}
+
+
+.content-linkheader {
   display: flex;
-   
-} */
+   justify-content: center;
+}
+.content-linkheader ul {
+  text-align: center;
+}
+.content-linkheader li {
+  padding: 20px;
+  background-color: #121212d5;
+}
+
+
+.link-group {
+  width: 100%;
+}
+.link-group a {
+  
+}
+.link-group a:hover {
+  font-weight: bolder;
+  background-color: #444444d5;
+
+}
+
+
+.link-group-projects {
+  display: none;
+}
+
+
+
 
 
 
