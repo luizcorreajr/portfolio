@@ -23,11 +23,24 @@
   height: 60px;
 }
 
+
 .div-header {
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
+   justify-content: space-around;
+   align-items: center;
+  height: 100%;
 }
+.div-header a {
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+.div-header button {
+  font-size: 1.6em;
+  background-color: transparent;
+  border: none;
+  color: var(--firstColor);
+}
+
 
 .div-options {
   display: none;
