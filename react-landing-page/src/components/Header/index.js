@@ -32,7 +32,7 @@ function Header() {
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
-          <button onClick={btnMenu} className="icon-menu"><FaAlignJustify/></button>
+          <button onClick={btnMenu}><FaAlignJustify/></button>
         </div>
 
         <div id="div-options" className="div-options">
