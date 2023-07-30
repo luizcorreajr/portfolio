@@ -14,12 +14,13 @@ function Header() {
 
 
 
-  function btnMenu() {
-    setStatus(!status);
+  function btnMenu(newStatus) {
+
+    setStatus(!newStatus);
 
     let divOptions = document.getElementById("div-options");
     
-    status === true
+    !newStatus
     ? divOptions.style.display = 'block' 
     : divOptions.style.display = 'none'
   }
@@ -32,7 +33,7 @@ function Header() {
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
-          <button onClick={btnMenu}><FaAlignJustify/></button>
+          <button onClick={() => btnMenu(status)}><FaAlignJustify/></button>
         </div>
 
         <div id="div-options" className="div-options">
