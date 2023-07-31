@@ -1,0 +1,163 @@
+:root {
+  --mobile: 360px;
+  --tablet: 640px;
+  --desktopS: 768px;
+  --desktopL: 1086px;
+  --firstColor: #fff;
+  --secondColor: #003852;
+  --thirdColor: #7e7e7e;
+}
+
+/* ===== ALL ===== */
+.container li, a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--firstColor);
+}
+
+
+
+/* ===== HEADER ===== */
+.container {
+  width: 100%;
+  height: 60px;
+}
+
+
+.div-header {
+  display: flex;
+   justify-content: space-around;
+   align-items: center;
+  height: 100%;
+}
+.div-header a {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.div-header button {
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--firstColor);
+}
+
+
+.div-options {
+  display: none;
+}
+
+
+
+/* ===== LINK HEADER ===== */
+.content-linkheader {
+  display: flex;
+   justify-content: center;
+}
+.content-linkheader ul {
+  text-align: center;
+}
+.content-linkheader li {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  background-color: #121212d5;
+}
+
+
+.link-group {
+  width: 100%;
+}
+.link-group a {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.link-group a:hover {
+  font-weight: bolder;
+}
+
+
+.link-group-projects {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========== acima de 640px ========== */
+@media screen and (min-width: 640px) {
+/* ===== HEADER ===== */
+.div-header button {
+  display: none;
+}
+
+
+.div-options {
+  display: block;
+}
+
+
+
+/* ===== LINK HEADER ===== */
+.content-linkheader {
+  /* display: flex;
+   justify-content: center; */
+}
+.content-linkheader ul {
+  /* text-align: center; */
+}
+.content-linkheader li {
+  /* width: 100%;
+  height: 60px;
+  padding: 20px;
+  background-color: #121212d5; */
+}
+
+
+.link-group {
+  /* width: 100%; */
+}
+.link-group a {
+  /* width: 100%;
+  height: 100%;
+  transition: 0.5s; */
+}
+.link-group a:hover {
+  /* font-weight: bolder; */
+}
+
+
+.link-group-projects {
+  /* display: none; */
+}
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) {
+  .link-header {
+    color: green;
+  }
+} */
+
+
+
+/* @media screen and (min-width: 1080px) {
+  .link-header {
+    color: blue;
+  }
+} */

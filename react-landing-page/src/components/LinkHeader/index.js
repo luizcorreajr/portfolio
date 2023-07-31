@@ -1,25 +1,25 @@
 import {Link} from 'react-router-dom';
-import './linkHeader.css';
+import '../Header/style.css'
+// import './linkHeader.css';
 
 
 function LinkHeader() {
   return (
-    <div className="div-container">
-      <nav className="container">
+    <div className="container-linkheader">
+      <nav className="content-linkheader">
         <ul className="link-group">
-            
-          <li className="li-link-header"><Link to="/" className="link-header">Home</Link></li>
-          <li className="li-link-header"><Link to="https://github.com/lz-junior" className="link-header" target="_blank">GitHub</Link></li>
-          <li className="li-link-header"><Link to="https://www.linkedin.com/in/luizcorreajr/" className="link-header" target="_blank">LinkedIn</Link></li>
-          <li className="li-link-header dropdown">
 
-            <Link to="/projects" className="link-header">Projects</Link>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="https://github.com/lz-junior" target="_blank">GitHub</Link></li>
+          <li><Link to="https://www.linkedin.com/in/luizcorreajr/" target="_blank">LinkedIn</Link></li>
+          <li><Link to="/projects">Projects</Link>
             
-            <ul className="dropdown-menu">
-              <li href="https://class-react-ljr.netlify.app" className="link-header" target="_blank" rel="noopener noreferrer">Prime Flix</li>
-              <li href="/" className="link-header">teste 002</li>
-              <li href="/" className="link-header">teste 003</li>
+            <ul className="link-group-projects">
+              <li><Link to="https://class-react-ljr.netlify.app" target="_blank">Prime Flix</Link></li>
+              <li><Link to="/">ToDo List</Link></li>
+              <li><Link to="/">My Services</Link></li>
             </ul>
+            
           </li>
 
         </ul>

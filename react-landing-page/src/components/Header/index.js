@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import LinkHeader from '../LinkHeader';
 
 import { FaAlignJustify } from 'react-icons/fa';
-import './header.css';
+import './style.css';
+// import './header.css';
 
 
 
@@ -13,12 +14,13 @@ function Header() {
 
 
 
-  function btnMenu() {
-    setStatus(!status);
+  function btnMenu(newStatus) {
+
+    setStatus(!newStatus);
 
     let divOptions = document.getElementById("div-options");
     
-    status === true
+    !newStatus
     ? divOptions.style.display = 'block' 
     : divOptions.style.display = 'none'
   }
@@ -26,20 +28,20 @@ function Header() {
 
   
   return (
-    <div>
-      <header>
+    <header>
+      <div className="container">
 
         <div className="div-header">
           <Link to="/" className="logo">I'mJr</Link>
-          <button onClick={btnMenu} className="icon-menu"><FaAlignJustify/></button>
+          <button onClick={() => btnMenu(status)}><FaAlignJustify/></button>
         </div>
 
         <div id="div-options" className="div-options">
           <LinkHeader/>
         </div>
 
-      </header>
-    </div>
+      </div>
+    </header>
   )
 }
 
